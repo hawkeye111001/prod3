@@ -9,7 +9,7 @@ pipeline {
                       }}
                 stage('Build') {
                    steps {
-                          sh ' /home/hima/dev-software/apache-maven-3.9.6/bin/mvn install'
+                          sh ' /home/admin/apache-maven-3.9.6/bin/mvn install'
                          }}
                 stage('Deployment'){
                     steps {
